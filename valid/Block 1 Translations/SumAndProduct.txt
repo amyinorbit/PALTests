@@ -1,0 +1,7 @@
+PROGRAM SumAndProduct 
+WITH i, j AS REAL
+IN
+    INPUT i, j
+    OUTPUT i + j
+    OUTPUT i * j
+END

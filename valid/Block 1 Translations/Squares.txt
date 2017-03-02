@@ -1,0 +1,9 @@
+PROGRAM Square 
+WITH i, n, square AS INTEGER
+IN
+    INPUT n
+    UNTIL i = n REPEAT
+        square = i * I
+        OUTPUT square
+    ENDLOOP
+END
