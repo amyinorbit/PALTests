@@ -1,0 +1,11 @@
+PROGRAM NestedFor 
+WITH i, j AS INTEGER
+IN
+    UNTIL i = 5 REPEAT
+        UNTIL j = 3 REPEAT
+            OUTPUT i, j
+            j = j + 1
+        ENDLOOP
+        i = i + 1
+    ENDLOOP
+END
