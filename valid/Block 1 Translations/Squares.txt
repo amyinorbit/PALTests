@@ -3,8 +3,7 @@ WITH i, n, square AS INTEGER
 IN
     INPUT n
     UNTIL i = n REPEAT
-        square = i * i
+        square = i * I
         OUTPUT square
-        i = i + 1
     ENDLOOP
 END

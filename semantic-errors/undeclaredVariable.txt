@@ -1,5 +1,5 @@
 PROGRAM SumAndProduct 
-WITH i, j AS REAL
+WITH j AS REAL
 IN
     INPUT i, j
     OUTPUT i + j
