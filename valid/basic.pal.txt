@@ -15,7 +15,7 @@ IN
                 OUTPUT a
             ENDIF
         ENDIF
-        OUTPUT i
+        OUTPUT i, 5, 5.0/1.123
         OUTPUT a, b
     ENDLOOP
 END
