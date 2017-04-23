@@ -1,7 +1,6 @@
 PROGRAM SumAndProduct 
 WITH j AS REAL
 IN
-    INPUT i, j
-    OUTPUT i + j
+    i = 123
     OUTPUT i * j
 END
