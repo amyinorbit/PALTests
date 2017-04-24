@@ -1,10 +1,10 @@
 PROGRAM Factorial 
-WITH i, n, factorial AS INTEGER
+WITH
+    i AS INTEGER
+    k AS REAL
 IN
     INPUT i
-    n = 1.0
-    UNTIL n = i REPEAT
-        factorial = factorial * i
-    ENDLOOP
-    OUTPUT factorial
+    i = 1.0
+    i = k
+    i = (5.0 * k + 2.0)
 END
